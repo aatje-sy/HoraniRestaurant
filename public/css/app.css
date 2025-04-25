@@ -1,0 +1,16 @@
+@import "header.css";
+@import "variables.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inder', sans-serif;
+
+}
+body {
+    font-family: 'Inder', sans-serif;
+    background-color: var(--primary-color);
+}
