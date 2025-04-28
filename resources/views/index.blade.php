@@ -22,9 +22,9 @@
             @if (Route::has('login'))
                 <div class="flex items-center gap-4">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="...">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="...">Login</a>
                     @else
-                        <a href="{{ route('login') }}" class="...">Log in</a>
+                        <a href="{{ route('login') }}" class="...">Login</a>
                     @endauth
                 </div>
             @endif
